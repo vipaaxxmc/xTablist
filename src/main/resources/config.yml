@@ -1,0 +1,22 @@
+# ==========================
+#
+#  xTab by Vipaaxx
+# Version: 1.0.0
+#
+# DM vipaaxx on spigotmc.org to report issues
+#
+# ==========================
+
+refresh: 5 # amount of ms the plugin waits to refresh the tablist
+
+header: # the part of the tablist above the players
+  # Supports gradients
+  -  " "
+  -  "[gradient=#7A7372#BDAFAC]YOUR SERVER NAME[/gradient]"
+  -  "&7Server is using &axTab &7by &bVipaaxx"
+  -  "&7&m-------------------------"
+
+footer: # the part of the tablist below players
+  -  "&7&m-------------------------"
+  -  "&7join our &ddiscord &7now: &ayour discord link"
+  -  " "

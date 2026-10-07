@@ -1,0 +1,15 @@
+name: xTab
+version: 1.0.0
+main: dev.vipaaxx.xtab.XTab
+api-version: '1.21'
+author: Vipaaxx
+description: Simple tablist with gradient support and optional PlaceholderAPI.
+softdepend: [PlaceholderAPI]
+commands:
+  xtab:
+    description: xTab main command
+    usage: /xtab reload
+permissions:
+  xtab.reload:
+    description: Allows reloading the config
+    default: op
