@@ -5,10 +5,6 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Supports: &amp; color/format codes, &amp;#RRGGBB hex, and
- * [gradient=#RRGGBB#RRGGBB(...)]text[/gradient] (2+ colors).
- */
 final class TextFormatter {
 
     private static final Pattern GRADIENT =
